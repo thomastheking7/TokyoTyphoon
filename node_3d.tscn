@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://crgbvwiq7lqb6"]
+
+[ext_resource type="PackedScene" uid="uid://ddtnc8f8xmfvj" path="res://TokyoTyphoon.blend" id="1_gomia"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="TokyoTyphoon" parent="." instance=ExtResource("1_gomia")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.888219, -1.30968, 5.86122)
